@@ -5,11 +5,10 @@ const ZClass2 = () => {
 
     const fruits = ["Apple" , "Banana" , "Orange" , "Kartik" ]
 
-    const user={
-        username: "nishant",
-        age:100,
-        lastname: "thakur"
-    }
+    const user=[{username: "nishant",age:100,lastname: "thakur"},
+      {username: "ryukendo",age:34, lastname:"kumar"},
+      {username:"salman",age:23,lastname:"khan"}
+    ]
 
     const userObj=(user)=>{
         return user.username + " " + user.lastname
@@ -26,12 +25,26 @@ const ZClass2 = () => {
 
       <h1>User :</h1>
       <ul>
+
+        {/* this is withour arrayoobj */}
         {/* <li>Name:{user.username}</li>
         <li>LastName:{user.lastname}</li> */}
 
-        <li>Name : {userObj(user)}</li>
+        {/* <li>Name : {userObj(user)}</li>
 
-        <li>Age:{user.age}</li>
+        <li>Age:{user.age}</li> */}
+
+        {user.map((user,index)=>(
+          <>
+          <li>{index} --  Name: {userObj(user)} and he is {user.age} years old.</li>
+          <li>{user.username}</li>
+          </>
+        ))}
+
+        <li>{user[0].username}</li>
+
+
+
       </ul>
     </div>
   )
