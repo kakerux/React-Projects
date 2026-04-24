@@ -8,6 +8,9 @@ import ZClass2 from "./ZClass2"
 import ZClass3 from "./ZClass3"
 import ZClass4 from "./ZClass4"
 import ZClass5 from "./ZClass5"
+import ZClass6 from "./ZClass6"
+import ZClass7 from "./ZClass7"
+import ZClass8 from "./ZClass8"
 import Vite from '/vite.svg'
 
 
@@ -32,6 +35,9 @@ const App=()=>{
      <ZClass4 name="Nishant" age="56" city="Bhopal" hobbies={hobbies}/>
      <ZClass4/>
      <ZClass5 label="Click me" handleClick={message}/>
+     <ZClass6/>
+     <ZClass7/>
+     <ZClass8/>
     
 
     </>
