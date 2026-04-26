@@ -4,6 +4,8 @@
 // import Card from "./Card"
 import "./App.css"
 import ZClass1 from "./ZClass1"
+import ZClass10form from "./ZClass10form"
+import ZClass11form1 from "./ZClass11form1"
 import ZClass2 from "./ZClass2"
 import ZClass3 from "./ZClass3"
 import ZClass4 from "./ZClass4"
@@ -11,6 +13,7 @@ import ZClass5 from "./ZClass5"
 import ZClass6 from "./ZClass6"
 import ZClass7 from "./ZClass7"
 import ZClass8 from "./ZClass8"
+import ZClass9 from "./ZClass9"
 import Vite from '/vite.svg'
 
 
@@ -38,6 +41,9 @@ const App=()=>{
      <ZClass6/>
      <ZClass7/>
      <ZClass8/>
+     <ZClass9/>
+     <ZClass10form/>
+     <ZClass11form1/>
     
 
     </>
