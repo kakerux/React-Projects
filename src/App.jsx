@@ -3,9 +3,12 @@
 
 // import Card from "./Card"
 import "./App.css"
+import FormValidation from "./FormValidation"
 import ZClass1 from "./ZClass1"
 import ZClass10form from "./ZClass10form"
 import ZClass11form1 from "./ZClass11form1"
+import ZClass12form2 from "./ZClass12form2"
+import ZClass13form3 from "./ZClass13form3"
 import ZClass2 from "./ZClass2"
 import ZClass3 from "./ZClass3"
 import ZClass4 from "./ZClass4"
@@ -44,6 +47,9 @@ const App=()=>{
      <ZClass9/>
      <ZClass10form/>
      <ZClass11form1/>
+     <ZClass12form2/>
+     <ZClass13form3/>
+     <FormValidation/>
     
 
     </>
