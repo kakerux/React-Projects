@@ -9,6 +9,8 @@ import ZClass10form from "./ZClass10form"
 import ZClass11form1 from "./ZClass11form1"
 import ZClass12form2 from "./ZClass12form2"
 import ZClass13form3 from "./ZClass13form3"
+import ZClass14useeffect from "./ZClass14useeffect"
+import ZClass15usetimer from "./ZClass15usetimer"
 import ZClass2 from "./ZClass2"
 import ZClass3 from "./ZClass3"
 import ZClass4 from "./ZClass4"
@@ -50,6 +52,8 @@ const App=()=>{
      <ZClass12form2/>
      <ZClass13form3/>
      <FormValidation/>
+     <ZClass14useeffect/>
+     <ZClass15usetimer/>
     
 
     </>
