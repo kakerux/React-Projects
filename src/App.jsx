@@ -14,7 +14,9 @@ import ZClass15usetimer from "./ZClass15usetimer"
 import ZClass16windowbox from "./ZClass16windowbox"
 import ZClass17apicapture from "./ZClass17apicapture"
 import ZClass18reactrouter from "./ZClass18reactrouter"
+import ZClass19useeffectevent from "./ZClass19useeffectevent"
 import ZClass2 from "./ZClass2"
+import ZClass20useefectevent2 from "./ZClass20useefectevent2"
 import ZClass3 from "./ZClass3"
 import ZClass4 from "./ZClass4"
 import ZClass5 from "./ZClass5"
@@ -60,6 +62,8 @@ const App=()=>{
      <ZClass16windowbox/>
      <ZClass17apicapture/>
      <ZClass18reactrouter/>
+     {/* <ZClass19useeffectevent/> */}
+     {/* <ZClass20useefectevent2/> */}
     
 
     </>
