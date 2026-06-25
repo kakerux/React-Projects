@@ -17,6 +17,7 @@ import ZClass18reactrouter from "./ZClass18reactrouter"
 import ZClass19useeffectevent from "./ZClass19useeffectevent"
 import ZClass2 from "./ZClass2"
 import ZClass20useefectevent2 from "./ZClass20useefectevent2"
+import ZClass21propsss from "./ZClass21propsss"
 import ZClass3 from "./ZClass3"
 import ZClass4 from "./ZClass4"
 import ZClass5 from "./ZClass5"
@@ -24,6 +25,8 @@ import ZClass6 from "./ZClass6"
 import ZClass7 from "./ZClass7"
 import ZClass8 from "./ZClass8"
 import ZClass9 from "./ZClass9"
+import ZClasss22sharingstate from "./ZClasss22sharingstate"
+import ZClassstatelifting from "./ZClassstatelifting"
 import Vite from '/vite.svg'
 
 
@@ -64,6 +67,9 @@ const App=()=>{
      <ZClass18reactrouter/>
      {/* <ZClass19useeffectevent/> */}
      {/* <ZClass20useefectevent2/> */}
+     <ZClass21propsss/>
+     <ZClassstatelifting/>
+     <ZClasss22sharingstate/>
     
 
     </>
